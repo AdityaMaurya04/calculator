@@ -1,0 +1,7 @@
+<suite name="Calculator Suite">
+    <test name="CalculatorTests">
+        <classes>
+            <class name="mobileTests.CalculatorTest"/>
+        </classes>
+    </test>
+</suite>

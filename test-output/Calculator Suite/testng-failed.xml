@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Calculator Suite]">
+  <test thread-count="5" name="CalculatorTests(failed)">
+    <classes>
+      <class name="mobileTests.CalculatorTest">
+        <methods>
+          <include name="testSubtraction"/>
+          <include name="tearDown"/>
+          <include name="testMultiplication"/>
+          <include name="testDivision"/>
+          <include name="testAddition"/>
+          <include name="setup"/>
+          <include name="testDivideByZero"/>
+        </methods>
+      </class> <!-- mobileTests.CalculatorTest -->
+    </classes>
+  </test> <!-- CalculatorTests(failed) -->
+</suite> <!-- Failed suite [Calculator Suite] -->
